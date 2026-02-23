@@ -157,6 +157,9 @@ function showPassword(){
 app.innerHTML=`
 <h2>Enter password:</h2>
 <input id="pass">
+<p style="font-size:13px;color:#ff69b4;margin-top:6px;text-align:center;font-style:italic;">
+Hint: what you tell me everyday 🤍
+</p>
 <button onclick="checkPass()">Next</button>
 <p id="msg"></p>`;
 }
@@ -166,7 +169,7 @@ if(pass.value==="iloveyoutaiyeba"){
 msg.innerHTML="Yes, You got it😉❤️";
 setTimeout(scanPage,1000);
 }else{
-msg.innerHTML="Wrong password baby😂 Try again😚";
+msg.innerHTML="Wrong password baby🤭 Try again😚";
 }
 }
 
@@ -195,7 +198,7 @@ app.innerHTML=`
 const questions=[
 ["Who am I to you ?😁",[["Friend🥰",0,"Excuse me??? Are you sure? I’ll give you one more chance, Choose carefully🐣"],["Wife😍",1,"You always make my heart happy😚 I love you. ❤️"],["Best friend 🫂",0,"Excuse me??? Are you sure? I’ll give you one more chance, Choose carefully🐣"],["Girl friend 😚",0,"Excuse me??? Are you sure? I’ll give you one more chance, Choose carefully🐣"]]],
 
-["Which one is our special day?😌",[["Taiyeba birthday 😉",0,"Wrong.Loading correct brain...⏳Please try again."],["The day we met 😍",1,"You’re a good boy. 🧸❤️"],["All day 😂",0,"Wrong.Loading correct brain...⏳Please try again."]]],
+["Which one is our special day?😌",[["Taiyeba birthday 😉",0,"Wrong, Loading correct brain...⏳Please try again."],["The day we met 😍",1,"Correct, Kutty papa. 😚🧸❤️"],["All day 😂",0,"Wrong, Loading correct brain...⏳Please try again."]]],
 
 ["Who makes you happiest? 😊",[["My friends 😎",0,"Wrong answer...I’m watching you. 👀Think again."],["Food 🍕",0,"Wrong answer...I’m watching you. 👀Think again."],["Taiyeba ❤️",1,"That’s why I love you. ❤️"]]],
 
